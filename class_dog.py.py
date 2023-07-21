@@ -32,6 +32,8 @@ class Bulldog(Dog):
 
     def temperament(self):
         print(f"{self.name} is known for its calm and friendly temperament.")
+
+
 # dog
 name = input("Enter the dog's name: ")
 age = int(input("Enter the dog's age: "))
@@ -40,6 +42,8 @@ dog = Dog(name, age, coat_color)
 
 dog.description()
 dog.get_info()
+
+
 # Jack Russel Terrier
 name = input("Enter the Jack Russell Terrier's name: ")
 age = int(input("Enter the Jack Russell Terrier's age: "))
@@ -51,6 +55,8 @@ jack_russell.description()
 jack_russell.get_info()
 jack_russell.special_ability()
 jack_russell.temperament()
+
+
 # Bulldog
 name = input("Enter the Bulldog's name: ")
 age = int(input("Enter the Bulldog's age: "))
